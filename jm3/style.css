@@ -1,0 +1,82 @@
+header h1{
+    text-align: center;
+    background-color: rgb(186, 194, 76);
+    height: 200px;
+    background-image: url('imagem/istockphoto-930281684-1024x1024.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+    font-size: 70px;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 200px;
+   
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    
+    
+}
+
+nav a {
+    margin: 0 50px; 
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+
+}
+
+body{
+    background-color: rgb(254, 255, 186);
+}
+
+.welcome{
+    text-align: center;
+     margin-top: 50px;
+     font-size: 20px;
+}
+
+.sobre{
+    text-align: center;
+     margin-top: 50px;
+     font-size: 20px;
+}
+
+.products {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.ts{
+    display: flex;
+    justify-content: center; 
+    margin: 0 500px;
+}
+
+ul{
+    display: flex;
+    justify-content: center; 
+    margin: 0 60px;
+    font-size: 25px;
+}
+
+.testimonials{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+button{
+    text-align: center;
+    margin-top: 50px;
+    width: 150px; /* largura do botão */
+    height: 50px; /* altura do botão */
+    font-size: 18px; /* tamanho da fonte do botão */
+}
