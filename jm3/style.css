@@ -54,16 +54,11 @@ body{
     justify-content: center;
 }
 
-.ts{
-    display: flex;
-    justify-content: center; 
-    margin: 0 500px;
-}
 
 ul{
     display: flex;
     justify-content: center; 
-    margin: 0 60px;
+    margin: 0 50px;
     font-size: 25px;
 }
 
@@ -76,7 +71,44 @@ ul{
 button{
     text-align: center;
     margin-top: 50px;
-    width: 150px; /* largura do botão */
-    height: 50px; /* altura do botão */
-    font-size: 18px; /* tamanho da fonte do botão */
+    width: 150px; 
+    height: 50px; 
+    font-size: 18px; 
+    background-color: rgb(26, 219, 0);
+    border-style: solid;
+    border-width: 5px;
+
 }
+
+.sobre h2{
+    background-color: rgb(208, 255, 181);
+    border-radius: 200px;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.welcome h2{
+    background-color: rgb(208, 255, 181);
+    border-radius: 200px;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 500px;
+    margin-right: 500px
+}
+
+.products h2{
+    background-color: rgb(208, 255, 181);
+    border-radius: 200px;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 500px;
+    margin-right: 500px
+
+}
+
+P{
+    font-family: italic;
+}
+
