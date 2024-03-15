@@ -1,0 +1,117 @@
+header{
+    background-color: rgb(208, 255, 181);
+    height: 100px;
+    
+}
+
+header h1{
+    margin-left: 200px
+    
+}
+
+h1{
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    
+}
+
+.kk{
+    background-color: rgb(192, 219, 94);
+    text-align: center;
+    height: 50px;
+    margin-top: -50px;
+}
+
+.com h1, h2{
+    margin-left: 200px
+    
+}
+
+.im{
+    border: 1px solid black;
+    width: 800px;
+    margin-left: 200px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.616);
+
+}
+
+.im2{
+    border: 1px solid black;
+    width: 800px;
+    margin-left: 200px;
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.im h3{
+    text-align: center;
+    
+}
+
+.im2 h3{
+    text-align: center;
+}
+
+.cep{
+    text-align: center;
+    margin-top: 500px;
+}
+
+.cpf{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.nome{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.valor{
+    margin-left: 200px;
+}
+
+.im h2{
+    position: relative;
+    top: -100px;
+    
+}
+
+.bola{
+    margin-left: 200px;
+}
+
+.im2 h2{
+    position: relative;
+    top: -100px;
+}
+
+.buto{
+    position: relative;
+    height: 20px;
+    width: 20px;
+    margin-left: 600px;
+    top: -150px;
+    
+}
+
+.im p{
+    position: relative;
+    height: 20px;
+    width: 20px;
+    margin-left: 625px;
+    top: -185px;
+}
+
+.but{
+    position: relative;
+    height: 20px;
+    width: 20px;
+    margin-left: 640px;
+    top: -222px; 
+}
