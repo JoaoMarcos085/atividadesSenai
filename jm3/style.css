@@ -1,114 +1,216 @@
-header h1{
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Background roxo */
+}
+
+header {
+    background-color: #c985fa; /* Background roxo */
+    padding: 20px;
+    color: white;
     text-align: center;
-    background-color: rgb(186, 194, 76);
-    height: 200px;
-    background-image: url('imagem/istockphoto-930281684-1024x1024.jpg');
-    background-size: cover;
-    background-position: center;
-    margin-top: 10px;
-    font-size: 70px;
-    color: rgb(0, 0, 0);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    border-radius: 200px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+        
+}
+
+.caixa-buscar {
+    margin: 0 auto;
+    max-width: 400px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.caixa-buscar input[type="text"] {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.caixa-buscar button {
+    border: none;
+    background: none;
+    font-size: 1.5em;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+nav {
+    background-color: #daac67;
+    padding: 10px;
+    text-align: center;
    
 }
 
-
-
-nav {
-    display: flex;
-    justify-content: center;
-    font-size: 35px;
-    
-    
-}
-
 nav a {
-    margin: 0 50px; 
-    color: black;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: white;
     text-decoration: none;
-
-}
-
-body{
-    background-color: rgb(254, 255, 186);
-}
-
-.welcome{
-    text-align: center;
-     margin-top: 50px;
-     font-size: 20px;
-}
-
-.sobre{
-    text-align: center;
-     margin-top: 50px;
-     font-size: 20px;
-}
-
-.products {
-    text-align: center;
-    margin-top: 50px;
-    font-size: 20px;
-    justify-content: center;
-}
-
-
-ul{
-    display: flex;
-    justify-content: center; 
-    margin: 0 50px;
+    margin: 0 10px;
     font-size: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
 }
 
-.testimonials{
+nav a:hover {
+    text-decoration: underline;
+}
+
+#content {
+    padding: 20px;
+    color: #333;
+}
+
+.mg{
     text-align: center;
-    margin-top: 50px;
+    margin: auto;
+    display: block;
+    border-radius: 20px;
+    
+}
+
+#car{
+    margin-left: 1000px;
+    margin-top: -50px;
+}
+
+#entra{
+    margin-right: 1200px;
+    margin-top: -50px;
+}
+
+.servi a{
+    display: inline-block; /* Garante que os links fiquem em uma linha */
+    margin: 0 10px; /* Adiciona um espaço entre os links */
+    text-decoration: none; /* Remove sublinhado padrão dos links */
+    
+}
+
+.servi{
+    text-align: center;
+}
+
+#super{
+    border-radius: 100px;
     font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border: 2px solid black;
+    box-shadow: 4px 3px 3px black;
+    padding: 25px;
+    background-color: rgba(238, 188, 255, 0.959);
 }
 
-button{
+#Meu{
+    border-radius: 100px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border: 2px solid black;
+    box-shadow: 4px 3px 3px black;
+    padding: 25px;
+    background-color: rgba(238, 188, 255, 0.959);
+}
+
+#compra{
+    border-radius: 100px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(7, 7, 7);
+    border: 2px solid black;
+    box-shadow: 4px 3px 3px black;
+    padding: 25px;
+    background-color: rgba(238, 188, 255, 0.959);
+}
+
+#serv{
+    border-radius: 100px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    box-shadow: 4px 3px 3px black;
+    border: 2px solid black;
+    padding: 25px;
+    background-color: rgba(238, 188, 255, 0.959);
+}
+
+.imags {
+    text-align: center; /* Centraliza horizontalmente o conteúdo */
+}
+
+.imags img {
+    display: inline-block; /* Permite que as imagens fiquem em uma linha */
+    margin: 0 auto; /* Centraliza horizontalmente as imagens */
+    margin: 0 10px;
+}
+
+#cate{
+    margin-left: 350px;
+}
+
+.gostar{
     text-align: center;
-    margin-top: 50px;
-    width: 150px; 
-    height: 50px; 
-    font-size: 18px; 
-    background-color: rgba(135, 248, 120, 0);
-    border-style: solid;
-    border-width: 5px;
+}
+
+.gostar img{
+    display: inline-block; /* Permite que as imagens fiquem em uma linha */
+    margin: 0 auto; /* Centraliza horizontalmente as imagens */
+    margin: 0 10px;
+}
+
+#gran{
+    border-radius: 25px;
+    border: 1px solid black;
+    padding: 25px;
+    box-shadow: 4px 3px 3px black;
 
 }
 
-.sobre h2{
-    background-color: rgb(208, 255, 181);
-    border-radius: 200px;
-    border-style: solid;
-    border-width: 1px;
-    margin-left: 500px;
-    margin-right: 500px;
+#esc{
+    border-radius: 25px;
+    border: 1px solid black;
+    padding: 25px;
+    box-shadow: 4px 3px 3px black; 
 }
 
-.welcome h2{
-    background-color: rgb(208, 255, 181);
-    border-radius: 200px;
-    border-style: solid;
-    border-width: 1px;
-    margin-left: 500px;
-    margin-right: 500px
+#rac{
+    border-radius: 25px;
+    border: 1px solid black;
+    padding: 25px;
+    box-shadow: 4px 3px 3px black;
 }
 
-.products h2{
-    background-color: rgb(208, 255, 181);
-    border-radius: 200px;
-    border-style: solid;
-    border-width: 1px;
-    margin-left: 500px;
-    margin-right: 500px
-
+#tap{
+    border-radius: 25px;
+    border: 1px solid black;
+    padding: 25px;
+    box-shadow: 4px 3px 3px black;
 }
 
-P{
-    font-family: italic;
+.gostar {
+    text-align: center; /* Centraliza horizontalmente o conteúdo */
+}
+
+.imagem-com-texto {
+    position: relative;
+    display: inline-block;
+    margin: 10px; /* Adiciona um espaço entre as imagens */
+}
+
+.texto-sobre-imagem {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(238, 188, 255, 0.959); /* Cor de fundo do texto */
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    color: black; /* Cor do texto */
+    max-width: calc(100% - 10px); /* Largura máxima igual à largura da imagem menos a margem */
+    text-align: center; /* Centraliza o texto horizontalmente */
 }
 
