@@ -164,7 +164,7 @@ nav a:hover {
 #gran{
     border-radius: 25px;
     border: 1px solid black;
-    padding: 25px;
+    padding: 50px;
     box-shadow: 4px 3px 3px black;
 
 }
@@ -172,21 +172,21 @@ nav a:hover {
 #esc{
     border-radius: 25px;
     border: 1px solid black;
-    padding: 25px;
+    padding: 50px;
     box-shadow: 4px 3px 3px black; 
 }
 
 #rac{
     border-radius: 25px;
     border: 1px solid black;
-    padding: 25px;
+    padding: 50px;
     box-shadow: 4px 3px 3px black;
 }
 
 #tap{
     border-radius: 25px;
     border: 1px solid black;
-    padding: 25px;
+    padding: 50px;
     box-shadow: 4px 3px 3px black;
 }
 
@@ -205,12 +205,32 @@ nav a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(238, 188, 255, 0.959); /* Cor de fundo do texto */
+    background-color: #daac67;
     padding: 5px;
     border-radius: 5px;
     font-size: 12px;
     color: black; /* Cor do texto */
     max-width: calc(100% - 10px); /* Largura máxima igual à largura da imagem menos a margem */
     text-align: center; /* Centraliza o texto horizontalmente */
+    margin-top: -100px;
+}
+
+.button {
+    text-align: center;
+    margin-top: -40px;
+}
+
+.button button {
+        margin: 0 70px; /* Adiciona margem de 10px à esquerda e à direita de cada botão */
+        width: 150px; /* Define a largura dos botões como 150 pixels */
+        height: 40px; /* Define a altura dos botões como 40 pixels */
+        font-size: 16px; /* Define o tamanho da fonte dos botões como 16 pixels */
+        margin-top: -60px;
+        border: 2px solid black; /* Adiciona uma borda sólida de 2 pixels preta aos botões */
+        background-color: rgba(238, 188, 255, 0.959); /* Cor de fundo do texto */
+        border-radius: 5px;
+        box-shadow: 4px 3px 3px black;
+       
+
 }
 

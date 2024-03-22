@@ -1,7 +1,6 @@
 header{
-    background-color: rgb(208, 255, 181);
-    height: 100px;
-    
+    background-color: rgba(238, 188, 255, 0.959);
+    height: 100px; 
 }
 
 header h1{
@@ -10,15 +9,15 @@ header h1{
 }
 
 h1{
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-    
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); 
 }
 
 .kk{
-    background-color: rgb(192, 219, 94);
+    background-color: #daac67;
     text-align: center;
     height: 50px;
     margin-top: -50px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 .com h1, h2{
@@ -26,92 +25,98 @@ h1{
     
 }
 
-.im{
-    border: 1px solid black;
-    width: 800px;
+.ii{
     margin-left: 200px;
-    border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.616);
-
+    margin-top: 70px;
+    border: 2px solid black; /* Adiciona uma borda sólida preta de 4 pixels */
+    display: inline-block; /* Permite que a div ocupe apenas o espaço necessário em torno da imagem */
+    padding: 10px; /* Adiciona um preenchimento interno de 10 pixels para manter a borda visível */
+    width: 750px;
+    height: 250px;
+    box-shadow: 4px 3px 3px black;
+    border-radius: 25px;
 }
 
-.im2{
-    border: 1px solid black;
-    width: 800px;
+#Plus{
+    margin-top: 65px;
+   
+}
+
+.item{
+    text-align: center;
+}
+
+.name{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
     margin-left: 200px;
-    margin-top: 30px;
-    border-radius: 20px;
-    background-color: rgb(255, 255, 255);
+    margin-top: -100px;
 }
 
-body{
-    background-color: rgb(255, 255, 255);
+.Desconto{
+    color: blue;
+    font-size: 20px;
+    margin-right: 200px;
 }
 
-.im h3{
+.mais{
+    box-shadow: inset 0px 1px 0px #ffffff;
+    background-color: transparent;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #666666;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 3px 6px;
+    text-shadow: 0px 1px 0px #ffffff;
+    display: flex;
     text-align: center;
-    
+    margin-left: 500px;
+    margin-top: -50px;
 }
 
-.im2 h3{
+.mais:active{
+    position: relative;
+    top: 1px;
+}
+
+.num{
+    font-size: 14px;
+    display: flex;
     text-align: center;
+    margin-left: 550px;
+    margin-top: -20px;
 }
 
-.cep{
+.menos{
+    box-shadow: inset 0px 1px 0px #ffffff;
+    background-color: transparent;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #666666;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 3px 6px;
+    text-shadow: 0px 1px 0px #ffffff;
+    display: flex;
     text-align: center;
-    margin-top: 500px;
+    margin-left: 575px;
+    margin-top: -25px;
 }
 
-.cpf{
-    text-align: center;
-    margin-top: 25px;
+.botao-com-imagem{
+    margin-left: 700px;
+    position: relative; /* Define o posicionamento relativo para permitir o deslocamento */
+        top: -150px; /* Move o botão para cima em relação à sua posição original */
 }
 
-.nome{
-    text-align: center;
-    margin-top: 25px;
-}
 
-.valor{
-    margin-left: 200px;
-}
 
-.im h2{
-    position: relative;
-    top: -100px;
-    
-}
 
-.bola{
-    margin-left: 200px;
-}
 
-.im2 h2{
-    position: relative;
-    top: -100px;
-}
+        
 
-.buto{
-    position: relative;
-    height: 20px;
-    width: 20px;
-    margin-left: 600px;
-    top: -150px;
-    
-}
 
-.im p{
-    position: relative;
-    height: 20px;
-    width: 20px;
-    margin-left: 625px;
-    top: -185px;
-}
-
-.but{
-    position: relative;
-    height: 20px;
-    width: 20px;
-    margin-left: 640px;
-    top: -222px; 
-}
