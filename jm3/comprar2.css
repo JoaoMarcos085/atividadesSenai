@@ -33,7 +33,7 @@ h1{
     padding: 10px; /* Adiciona um preenchimento interno de 10 pixels para manter a borda visível */
     width: 750px;
     height: 250px;
-    box-shadow: 4px 3px 3px black;
+    box-shadow: 4px 3px 3px rgb(244, 147, 253);
     border-radius: 25px;
 }
 
@@ -113,8 +113,85 @@ h1{
         top: -150px; /* Move o botão para cima em relação à sua posição original */
 }
 
+.mm{
+    margin-left: 1100px;
+    margin-top: -750px;
+    position: relative; /* Importante para referenciar o h3 */
+}
 
+#pp {
+    padding-top: 10px; /* Substitua 10px pelo valor desejado para mover o texto para cima */
+    border: 3px solid black; /* Adicionando uma borda sólida preta */
+    background-color: rgba(221, 221, 221, 0.363);
+    border-radius: 40px;
+    padding: 15px;
+    width: 500px;
+    height: 300px;
+    margin-top: 70px;
 
+}
+
+.mm h3 {
+    margin-left: 10px; /* Define a margem à esquerda */
+    font-size: 25px;
+    
+}
+
+.vl{
+    background-color: rgb(124, 79, 111);
+    display: block; /* Transforma o botão em bloco */
+    margin: 10px auto; /* Margem automática nas laterais centraliza o botão verticalmente */
+    margin-top: 100px;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 20px;
+    width: 300px;
+    text-shadow: 0px 1px 0px #6d6d6d;
+    color: #ffffff;
+    
+}
+
+#vv{
+    margin-top: -50px;
+    margin-left: 350px;
+}
+
+#uu{
+    margin-top: -150px;
+}
+
+#vc{
+    margin-left: 60px;
+    margin-top: -34px;
+}
+
+#vx{
+    margin-left: 350px;
+    margin-top: -50px;
+}
+
+#pç{
+    margin-top: 300px;
+    margin-left: 900px;
+}
+
+#cep-form {
+    margin: 20px auto;
+    text-align: center;
+}
+#cep-input {
+    padding: 8px;
+    font-size: 16px;
+}
+#buscar-button {
+    padding: 8px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
 
 
         
