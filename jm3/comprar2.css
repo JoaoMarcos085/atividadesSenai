@@ -121,19 +121,19 @@ h1{
 
 #pp {
     padding-top: 10px; /* Substitua 10px pelo valor desejado para mover o texto para cima */
-    border: 3px solid black; /* Adicionando uma borda sólida preta */
-    background-color: rgba(221, 221, 221, 0.363);
+    
     border-radius: 40px;
     padding: 15px;
     width: 500px;
     height: 300px;
-    margin-top: 70px;
+    margin-top: 100px;
 
 }
 
 .mm h3 {
     margin-left: 10px; /* Define a margem à esquerda */
     font-size: 25px;
+    margin-top: 350px;
     
 }
 
@@ -149,10 +149,11 @@ h1{
     text-shadow: 0px 1px 0px #6d6d6d;
     color: #ffffff;
     
+
 }
 
 #vv{
-    margin-top: -50px;
+    margin-top: 5px;
     margin-left: 350px;
 }
 

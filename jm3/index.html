@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>JM Petshop</h1> 
+        <h2 id="entra">Entrar/Cadastrar</h2>
+        <div class="caixa-buscar">
+            <input type="text" placeholder="Pesquisar" />
+            <button>&#128270;</button>
+        </div>
+        <div id="car">
+           <a href="comprar.html"><img src="imagem/carrinho-de-compras.png" alt="carrin" width="50"></a>
+        </div>
+        
+    </header>
+    
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Sobre</a>
+        <a href="#">Contato</a>
+        <a href="#">Produtos</a>
+        <a href="blog.html">Blog</a>
+    </nav>
+    <BR/>
+    <BR/>
+
+    <img class="mg" src="imagem/20240318_granplus_1152x310_2_e672a3d1cf.png" alt="mg">
+
+    <section id="content">
+    </section>
+
+    <div class="servi">
+        <a id="super" href="#">Super app</a>
+        <a id="Meu" href="#">Meu Desconto</a>
+        <a id="compra" href="#">Compra Programada</a>
+        <a id="serv" href="#">Serviços do Pet</a>
+    </div>
+    <BR/>
+    <BR/>
+    <div class="imags">
+        <img id="pt" src="imagem/1.png.webp" alt="1" width="200">
+        <img id="po" src="imagem/2.png (2).webp" alt="2" width="200">
+        <img id="pn" src="imagem/3.png.webp" alt="3" width="200">
+        <img id="pk" src="imagem/4.png.webp" alt="4" width="200">
+    </div>
+    <BR/>
+    <BR/>
+    <div class="cat">
+        <h1 id="cate">Alguns Produtos</h1>
+    </div>
+    <BR/>
+    <BR/>
+    <div class="gostar">
+        <div class="imagem-com-texto">
+            <img id="gran" src="imagem/alimento-umido-gran-plus-gourmet-caes-mini-ovelha-e-arroz-frente.png" alt="gran" width="150"> 
+            <div class="texto-sobre-imagem">Gran Plus Gourmet
+                valor-55R$
+            </div>
+        </div>
+        <div class="imagem-com-texto">
+            <img id="esc" src="imagem/Escova-Porta-Shampoo-MyHug-frente.png" alt="esc" width="150">
+            <div class="texto-sobre-imagem">Escova Porta
+                valor-25R$
+            </div>
+        </div>
+        <div class="imagem-com-texto">
+            <img id="rac" src="imagem/racao-umida-pedigree-sache-carne-ao-molho-para-caes-adultos-de-racas-pequenas-100g-frente.png" alt="rac" width="150">
+            <div class="texto-sobre-imagem">Carne ao Molho Para Caes Valor-70R$</div>
+        </div>
+        <div class="imagem-com-texto">
+            <img id="tap" src="imagem/Tapete-Gelado-PetFresh-Petmais-medio-01.png" alt="tap" width="150">
+            <div class="texto-sobre-imagem">Tapete PetFresh valor-45R$</div>
+        </div>
+    </div>
+    <BR/>
+    <BR/>
+    <BR/>
+    <body>
+        <body>
+            <div class="button">
+                <a href="comprar.html"><button id="add-to-cart-btn">Add carrinho</button></a>
+                <a href="raçao.html"><button id="but2">Add Carrinho</button>
+                <a href="carne.html"><button id="but3">Add Carrinho</button>
+                <a href="tapete.html"><button id="but4">Add Carrinho</button>
+            </div>
+        
+            <script>
+                // Função para adicionar mensagem de "Produto adicionado ao carrinho"
+                function adicionarAoCarrinho() {
+                    // Criar a mensagem
+                    var mensagem = document.createElement('div');
+                    mensagem.textContent = 'Produto adicionado ao carrinho!';
+                    mensagem.classList.add('mensagem');
+        
+                    // Adicionar a mensagem logo após o botão
+                    this.parentNode.appendChild(mensagem);
+        
+                    // Remover a mensagem após alguns segundos (opcional)
+                    setTimeout(function() {
+                        mensagem.parentNode.removeChild(mensagem);
+                    }, 9000); // Tempo em milissegundos (3 segundos neste caso)
+                }
+        
+                // Adicionar evento de clique para cada botão
+                document.getElementById('add-to-cart-btn').addEventListener('click', adicionarAoCarrinho);
+                document.getElementById('but2').addEventListener('click', adicionarAoCarrinho);
+                document.getElementById('but3').addEventListener('click', adicionarAoCarrinho);
+                document.getElementById('but4').addEventListener('click', adicionarAoCarrinho);
+            </script>
+<BR/>
+<BR/>
+<BR/>
+<BR/>
+<BR/>
+<BR/>
+<BR/>
+<BR/>
+<BR/>
+<BR/>
+<BR/>
+<BR/
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo">
+                </div>
+                <div class="contact-info">
+                    <p>Endereço: Rua dos Pets, 123 - Cidade dos Animais</p>
+                    <p>Telefone: (00) 1234-5678</p>
+                    <p>Email: contato@petshop.com</p>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="#"><img src="imagem/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="imagem/instagram.png"Instagram"></a>
+                <a href="#"><img src="imagem/whatsapp.png" alt="Twitter"></a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+</body>        
+</html>
+

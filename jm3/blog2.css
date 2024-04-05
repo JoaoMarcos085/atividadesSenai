@@ -1,0 +1,111 @@
+/* Estilos Gerais */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #f8a7dd;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  .logo img {
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    
+  }
+  
+  .main-nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main-nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  .main-nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+  }
+  
+  .main-nav a:hover {
+    color: #ffeb3b;
+  }
+  
+  .contact-info {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .contact-info span {
+    display: block;
+    color: #ddd;
+  }
+  
+  /* Seção Principal */
+  main {
+    padding: 20px;
+  }
+  
+  .hero {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+  }
+  
+  /* Seções */
+  section {
+    margin-bottom: 40px;
+  }
+  
+  section h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: #3f51b5;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .footer-content p {
+    margin: 0;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .main-nav ul li {
+      display: block;
+      margin: 10px 0;
+    }
+  }
